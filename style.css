@@ -34,6 +34,67 @@ html {
 }
 
 body {
+    background-color: var(--yellow);
+    color: var(--black);
     min-height: 100vh;
     font-size: 1rem;
+    font-family: var(--ff-primary);
+}
+
+/* Specific classes */
+
+.card {
+    background-color: var(--white);
+    margin: 0 1rem;
+    padding: 1.125rem;
+    max-width: 340px;
+    border: 1px solid var(--black);
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px 1px var(--black);
+}
+
+.image__image {
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__type {
+    background-color: var(--yellow);
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-top: 1.125rem;
+    margin-bottom: 1rem;
+    width: 85px;
+    font-weight: 800;
+    font-size: .875rem;
+    text-align: center;
+}
+
+.card__date {
+    font-size: .875rem;
+    margin-bottom: 1rem;
+}
+
+.card__title {
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+}
+
+.card__description {
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    font-size: .875rem;
+    line-height: 1.4;
+}
+
+.card__authorship {
+    gap: .625rem;
+    align-items: center;
+    font-weight: 800;
+}
+
+.authorship__pfp {
+    width: 40px;
 }
