@@ -80,6 +80,12 @@ body {
 .card__title {
     font-size: 1.375rem;
     margin-bottom: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card__title:hover {
+    color: var(--yellow);
 }
 
 .card__description {
