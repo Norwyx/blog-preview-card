@@ -65,7 +65,7 @@ body {
     border-radius: 5px;
     padding: 6px 10px;
     margin-top: 1.125rem;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
     width: 85px;
     font-weight: 800;
     font-size: .875rem;
@@ -74,7 +74,7 @@ body {
 
 .card__date {
     font-size: .875rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 .card__title {
